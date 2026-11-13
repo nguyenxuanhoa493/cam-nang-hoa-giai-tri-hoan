@@ -48,10 +48,10 @@
 
     app.innerHTML =
       '<section class="hero"><div class="wrap">' +
-        '<div><span class="eyebrow">Cẩm nang Tư vấn viên</span>' +
-        '<h1>Hóa giải <span>sự trì hoãn</span> của khách hàng</h1>' +
-        '<p>Chọn nhóm trì hoãn bạn đang gặp để xem toàn bộ cách hóa giải và lời hóa giải mẫu theo 5 bước.</p></div>' +
+        '<div class="hero-left"><span class="eyebrow">Cẩm nang Tư vấn viên</span>' +
+        '<h1>Hóa giải <span>sự trì hoãn</span> của khách hàng</h1></div>' +
         '<img src="assets/cover.webp" alt="Cẩm nang hóa giải sự trì hoãn từ khách hàng" width="200" height="300">' +
+        '<p class="hero-sub">Chọn nhóm trì hoãn bạn đang gặp để xem toàn bộ cách hóa giải và lời hóa giải mẫu theo 5 bước.</p>' +
       '</div></section>' +
       '<div class="wrap fade">' +
         '<h2 class="section-title">Chọn nhóm trì hoãn</h2>' +
