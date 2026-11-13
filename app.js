@@ -63,7 +63,7 @@
         '<div class="steps5">' + steps + '</div>' +
         '<h2 class="section-title">Lời dẫn & Lời kết</h2>' +
         '<details class="prose"><summary>Lời dẫn</summary>' + intro + '</details>' +
-        '<details class="prose" style="margin-top:10px"><summary>Lời kết</summary><p><strong>' + esc(cap(D.outro.title)) + '</strong></p>' + outro + '</details>' +
+        '<details class="prose" style="margin-top:10px"><summary>Lời kết</summary><p><strong>' + esc(cap(D.outro.title)) + '</strong></p>' + outro + '<img src="assets/loi-ket.png" alt="Lời kết — Bảo Việt Nhân thọ" style="margin:16px auto 0;border-radius:12px;width:100%;max-width:500px">' + '</details>' +
       '</div>';
 
     var q = document.getElementById('q'), res = document.getElementById('results');
